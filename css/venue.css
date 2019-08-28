@@ -1,0 +1,189 @@
+.venue-section {
+    padding: 100px 0px 10px 0px;
+}
+
+.venue-section .title {
+    margin: 30px 0px;
+}
+
+.venue-section .call-out {
+    margin-left: 0px;
+    width: 580px;
+    height: 500px;
+}
+
+.venue-hotel-block {
+    margin: 20px 0px;
+}
+
+.venue-text {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-rendering: optimizeLegibility;
+}
+
+.hotel-amn-heading {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hotel-sub-text {
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.venue-sub-text {
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.venue-sub-text a {
+    color: #cfad7d;
+}
+
+.venue-hightlight-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.venue-hotel-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.venue-hotel-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.venue-hotel {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.venue-hotel .venue-location {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+.venue-hotel .venue-reservation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.amnenities-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.amnenities-col {
+    padding: 0px 15px;
+}
+
+.map-container {
+    margin-top: 20px;
+    overflow: hidden;
+    height: 240px;
+}
+
+.place-card-medium {
+    /* hide annoying, pointless block in map */
+    display: none !important;
+}
+
+.venue-hotel-block {
+    padding: 10px 0px;
+}
+
+.tab-title {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(64, 154, 191);
+    display: block;
+    font-family: Jura, Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 39px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-rendering: optimizeLegibility;
+}
+
+.tab-paragraph {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-rendering: optimizeLegibility;
+}
