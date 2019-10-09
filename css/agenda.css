@@ -1,0 +1,75 @@
+.keynote-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.keynote-section .keynote-left, .keynote-section .keynote-right {
+  display: flex;
+  flex-direction: column;
+}
+.keynote-section .keynote-left .keynote-name {
+  font-family: "Jura", "Roboto", sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.keynote-section .keynote-left .keynote-subtitle {
+  display: flex;
+  flex-direction: row;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.keynote-section .keynote-left .keynote-subtitle .keynote-company, .keynote-section .keynote-left .keynote-subtitle .keynote-handle, .keynote-section .keynote-left .keynote-subtitle .keynote-div {
+  display: flex;
+  color: #409abf;
+}
+.keynote-section .keynote-left .keynote-talk .keynote-topic {
+  padding: 10px 0px;
+  color: #409abf;
+  font-family: "Jura", "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+
+
+@media (min-width: 200px) {
+  .page-box {
+    padding: 60px 0px;
+  }
+
+  .keynote-section {
+    flex-direction: column;
+  }
+  .keynote-section .keynote-right {
+    padding: 20px 10px 20px 20px;
+  }
+  .keynote-section .keynote-right .keynote-image {
+    width: 300px;
+  }
+  .keynote-section .keynote-div {
+    padding: 0px 8px;
+  }
+}
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 720px;
+  }
+
+  .keynote-section {
+    flex-direction: row;
+  }
+  .keynote-section .keynote-right {
+    padding: 40px 10px 40px 40px;
+  }
+  .keynote-section .keynote-right .keynote-image {
+    width: 350px;
+  }
+  .keynote-section .keynote-div {
+    padding: 0px 20px;
+  }
+}

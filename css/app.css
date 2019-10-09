@@ -1529,3 +1529,7 @@ button:hover:before {
     width: 100px;
     fill: #333;
 }
+
+a {
+    color: #409abf;
+}
